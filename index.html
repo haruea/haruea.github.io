@@ -1,14 +1,7 @@
 ---
-layout: default  # 继承default布局
+layout: default
 title: 首页
 ---
-
-<!-- 首页的“关于我”模块 -->
-<div style="text-align: center; margin: 30px 0;">
-  <img src="{{ site.author.avatar }}" alt="你的头像" class="avatar">
-  <h2>{{ site.author.name }}</h2>
-  <p>{{ site.author.bio }}</p>
-</div>
 
 <!-- 首页的“文章列表”模块 -->
 <div class="post-list">
@@ -17,8 +10,8 @@ title: 首页
   <!-- 自动调用_posts里的所有文章，不用手动加 -->
   {% for post in site.posts %}
     <a href="{{ post.url }}" class="post-link">
-      <h3>● {{ post.title }}</h3>
-      <p class="post-date">发布于：{{ post.date | date: "%Y年%m月%d日" }}</p>
+      <h3>{{ post.title }}</h3>
+      <p class="post-date">发布于: {{ post.date | date: "%Y年%m月%d日" }}</p>
       <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p> <!-- 文章摘要 -->
     </a>
     <hr>
