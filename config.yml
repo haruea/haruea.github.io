@@ -1,8 +1,7 @@
 # 1. 博客基础信息
 title: Haru的生活日记
 description: 希望我能做好这个博客
-url: "https://haruea.github.io"
-baseurl: ""  # 必须是空
+url: https://haruea.github.io
 
 # 2. 你的个人信息
 author:
@@ -12,4 +11,6 @@ author:
 
 # 3. 其他配置
 markdown: kramdown
+thmem: minima
 permalink: /posts/:title/
+
