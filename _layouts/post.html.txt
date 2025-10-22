@@ -1,0 +1,10 @@
+---
+layout: default  # 继承上面的default布局
+---
+<!-- 文章页面样式 -->
+<article style="line-height: 1.8;">
+  <h1>{{ page.title }}</h1>
+  <p style="color: #666;">发布时间：{{ page.date | date: "%Y年%m月%d日" }} | 分类：{{ page.categories }} | 标签：{{ page.tags | join: "、" }}</p>
+  <hr>
+  {{ content }} <!-- 文章内容，来自_posts里的md文件 -->
+</article>
