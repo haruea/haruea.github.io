@@ -1,15 +1,16 @@
 # 1. 博客基础信息
-title: Haruea的生活日记
+title: Haru的生活日记
 description: 希望我能做好这个博客
 url: https://haruea.github.io
 
 # 2. 你的个人信息
 author:
-  name: Haruea
-  bio: 大学生，爱听歌，打游戏
+  name: Haru
+  bio: 是一名爱听歌且打游戏的大学生
   avatar: /assets/avatar.jpg
 
 # 3. 其他配置
 markdown: kramdown
 theme: minima
 permalink: /posts/:title/
+
