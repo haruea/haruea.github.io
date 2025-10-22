@@ -11,8 +11,9 @@ author:
 
 # 3. 其他配置
 markdown: kramdown
-thmem: minima
+theme: minima
 permalink: /posts/:title/
+
 
 
 
