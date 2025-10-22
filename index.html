@@ -3,6 +3,14 @@ layout: default
 title: 首页
 ---
 
+<!-- 隐藏浏览器默认干扰元素的样式 -->
+<style>
+  /* 强制覆盖浏览器自动生成的元素 */
+  body > :not(div):not(footer):not(main) {
+    display: none !important;
+  }
+</style>
+
 <!-- 顶部区域 -->
 <div style="width: 100%; padding: 15px 0; border-bottom: 1px solid #f0f0f0;">
   <div style="max-width: 800px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;">
@@ -32,7 +40,7 @@ title: 首页
   {% endfor %}
 </div>
 
-<!-- 页脚 -->
+<!-- 页脚（只保留一个） -->
 <footer style="width: 100%; padding: 20px 0; background: #f8f9fa; text-align: center; font-size: 14px; color: #666;">
   © 2025 Haru · 托管于GitHub Pages
 </footer>
