@@ -7,7 +7,7 @@ url: https://haruea.github.io
 author:
   name: Haru
   bio: 一个爱听歌且热衷于打游戏的大学生
-  avatar: /assets/avatar.jpg
+  avatar: assets/avatar.jpg
 
 # 3. 其他配置
 markdown: kramdown
