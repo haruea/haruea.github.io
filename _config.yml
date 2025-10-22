@@ -6,7 +6,7 @@ lang: zh-CN
 timezone: Asia/GuangDong
 title: Haru
 tagline: 生活日常记录
-description: 完成作业
+description: 完成一次作业
 url: "https://haruea.github.io"
 
 
@@ -24,7 +24,7 @@ social:
 # ------------------------------
 # 功能配置（仅保留基础项）
 # ------------------------------
-avatar: /assets/avatar.jpg  # 你的头像路径
+avatar: /assets/avatar.jpg  # 对应你assets里的头像文件名
 location: 广东
 toc: true  # 若不需要文章目录，可改成false
 theme_mode: light
