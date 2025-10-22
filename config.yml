@@ -6,14 +6,10 @@ url: https://haruea.github.io
 # 2. 你的个人信息
 author:
   name: Haru
-  bio: 是一名爱听歌且热衷于打游戏的大学生
+  bio: 一个爱听歌且热衷于打游戏的大学生
   avatar: /assets/avatar.jpg
 
 # 3. 其他配置
 markdown: kramdown
 theme: minima
 permalink: /posts/:title/
-
-
-
-
