@@ -1,5 +1,5 @@
 ---
-layout: default  # 改成default，继承统一布局
+layout: default
 title: 关于我
 ---
 
@@ -13,8 +13,7 @@ title: 关于我
 可以找到我的地方
 - QQ: 485277361
 - 微信: Larseazin716
-- GitHub: haruea（你的GitHub用户名）
+- GitHub: haruea
 
 最后说一句
-感谢你来我的小角落～希望这里的内容能给你一点点启发或陪伴 🌟
-
+感谢你来我的小角落～希望这里的内容能给你一点点启发或陪伴 🌞
